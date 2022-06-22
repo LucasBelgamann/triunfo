@@ -1,0 +1,213 @@
+* {
+  box-sizing: none;
+  font-family: Courier New , Courier , monospace;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  border: none;
+  border-bottom: solid 2px;
+  display: flex;
+  height: 8vh;
+  margin-bottom: 2rem;
+  outline: none;
+  resize: none;
+  width: 36vw;
+}
+
+.cardName input {
+  border: none;
+  border-bottom: solid 2px;
+  display: flex;
+  height: 5vh;
+  margin-bottom: 2rem;
+  outline: none;
+  width: 70vh;
+}
+
+.form {
+  background-color: #fafafa;
+  width: 50%;
+  padding: 50px;
+
+}
+
+.form h1 {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.cardAttr1 input {
+  border: 2px solid black;
+  height: 35px;
+  margin-bottom: 10px;
+  width: 20vw;
+}
+
+.cardAttr2 input {
+  border: 2px solid black;
+  height: 35px;
+  margin-bottom: 10px;
+  width: 20vw;
+}
+
+.cardAttr3 input {
+  border: 2px solid black;
+  height: 35px;
+  margin-bottom: 50px;
+  width: 20vw;
+}
+
+.cardImage input {
+  border: 2px solid black;
+  height: 35px;
+  margin-bottom: 15px;
+  width: 20vw;
+}
+
+.cardRare select {
+  background-color: white;
+  border: none;
+  border-bottom: 2px solid;
+  display: flex;
+  height: 40px;
+  margin-bottom: 30px;
+  outline: none;
+  width: 20vw;
+}
+
+.Salvar button {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  margin-top: 30px;
+  padding: 7px;
+  width: 90px;
+}
+
+.mae {
+  display: flex;
+  max-height: 100vh;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  height: 57vh;
+  margin-left: 18rem;
+  margin-top: 180px;
+  padding: 10px;
+  width: 18.9vw;
+}
+
+.nameCard {
+  background-color: red;
+  border-radius: 10px 10px 0 0;
+  height: 13%;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.nameCard p {
+  color: white;
+  font-size: 30px;
+  font-weight: 1000;
+  padding: 10px;
+  text-align: right;
+}
+
+.image-card {
+  background-color: white;
+  height: 30%;
+  margin: 0 auto;
+  position: relative;
+  width: 90%;
+}
+
+.image-card img {
+  height: 19vh;
+  object-fit: cover;
+  position: relative;
+  width: 16.9vw;
+}
+
+.attr-card {
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  height: 31%;
+  margin: auto;
+  width: 90%;
+}
+
+.attr-card p {
+  font-size: 16px;
+  font-weight: 800;
+  padding: 10px;
+}
+
+.description-card p {
+  color: white;
+  font-size: 15px;
+  height: 12vh;
+  margin: auto;
+  width: 90%;
+}
+
+.cardBack {
+  background-color: black;
+  border-radius: 15px;
+  height: 54vh;
+  padding: 10px 1px;
+  width: 18.8vw;
+}
+
+.cardSide {
+  background-color: red;
+  height: 100vh;
+  width: 110vh;
+}
+
+@media screen and (min-width: 390px) and (max-width: 570px) {
+  .mae {
+    flex-direction: column;
+  }
+  .cardSide {
+   width: 100vw;
+  }
+  .card {
+    margin: 2.5rem auto;
+    width: 50vw;
+  }
+  .form {
+    width: 80vw;
+  }
+  .cardName input {
+    width: 80vw;
+  }
+  textarea {
+    width: 80vw;
+  }
+  .cardBack {
+    width: 49.7vw;
+  }
+  .image-card img {
+    width: 44vw;
+    height: 25vw;
+  }
+  .cardAttr1 input {
+    width: 50vw;
+  }
+  .cardAttr2 input {
+    width: 50vw;
+  }
+  .cardAttr3 input {
+    width: 50vw;
+  }
+  .cardImage input {
+    width: 50vw;
+  }
+  .cardRare select {
+    width: 72vw;
+  }
+}
