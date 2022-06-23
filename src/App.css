@@ -165,7 +165,7 @@ textarea {
 .cardSide {
   background-color: red;
   height: 100vh;
-  width: 110vh;
+  width: 100vh;
 }
 
 @media screen and (min-width: 390px) and (max-width: 570px) {
@@ -177,10 +177,10 @@ textarea {
   }
   .card {
     margin: 2.5rem auto;
-    width: 50vw;
+    width:75vw;
   }
   .form {
-    width: 80vw;
+    width: 50vw;
   }
   .cardName input {
     width: 80vw;
@@ -189,11 +189,11 @@ textarea {
     width: 80vw;
   }
   .cardBack {
-    width: 49.7vw;
+    width: 74vw;
   }
   .image-card img {
-    width: 44vw;
-    height: 25vw;
+    width: 65vw;
+    height: 35vw;
   }
   .cardAttr1 input {
     width: 50vw;
@@ -209,5 +209,11 @@ textarea {
   }
   .cardRare select {
     width: 72vw;
+  }
+  .cardRare {
+    margin-top: 2rem;
+  }
+  .nameCard p {
+    font-size: 1.5rem;
   }
 }
