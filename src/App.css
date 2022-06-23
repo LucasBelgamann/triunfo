@@ -126,7 +126,7 @@ textarea {
 }
 
 .image-card img {
-  height: 19vh;
+  height: 16vh;
   object-fit: cover;
   position: relative;
   width: 16.9vw;
