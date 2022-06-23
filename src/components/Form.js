@@ -28,7 +28,7 @@ class Form extends React.Component {
     } = this.props;
     return (
       <form className="form">
-        <h1>Adicionar nova carta</h1>
+        <h1>Faça a sua carta</h1>
         <div className="cardName">
           <InputText
             data="name-input"
