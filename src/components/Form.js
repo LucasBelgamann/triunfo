@@ -31,6 +31,7 @@ class Form extends React.Component {
         <h1>Faça a sua carta</h1>
         <div className="cardName">
           <InputText
+            placeholder="Digite o nome da sua carta"
             data="name-input"
             name="cardName"
             type="text"
